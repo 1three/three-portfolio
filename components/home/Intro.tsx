@@ -14,13 +14,14 @@ const Intro = () => {
     <div className="min-h-screen grid relative" style={background}>
       <div className="relative z-10 flex flex-col font-light justify-center items-center h-screen text-white leading-relaxed lg:leading-relaxed">
         <div className={`flex items-center ${textAnimation}`}>
-          {/* Profile */}
+          {/* 프로필 사진 */}
           <img
             src="../images/profile.png"
             alt="profile"
             className="w-64 h-64 rounded-full mr-16 lg:w-96 lg:h-96 lg:mr-24"
           />
-          {/* Introduce */}
+
+          {/* 인트로 본문 */}
           <div>
             <p className="text-[36px] lg:text-[50px]">안녕하세요.</p>
             <p className="text-[40px] lg:text-[56px]">
@@ -36,7 +37,8 @@ const Intro = () => {
             </p>
           </div>
         </div>
-        {/* mouse icon */}
+
+        {/* 마우스 스크롤 아이콘 */}
         <div className="absolute bottom-8 cursor-pointer">
           <MouseAnimation />
         </div>
